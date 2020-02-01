@@ -6,7 +6,7 @@ import { Observable} from 'rxjs';
   providedIn: 'root'
 })
 export class CarService {
-  public API = '//localhost:8080';
+  public API = '//car-backend-production.herokuapp.com';
   public CAR_API = this.API + '/cars';
 
   constructor(private http: HttpClient) {
